@@ -1,0 +1,62 @@
+/*html{
+    background-color: rgba(83, 2, 2, 0.308);
+}
+
+body{
+    overflow: scroll;
+}
+
+#blog{
+    min-height: 100%;
+    background: url("https://www.alfabetajuega.com/wp-content/uploads/2021/04/naruto-fondo-de-pantalla-naruto-fondo-de-pantalla-.jpg") ;
+    background-repeat: no-repeat center center fixed ;
+    flex-grow: 1;
+    padding: 0.5rem 1rem;
+}*/
+html{
+    display: block;
+}
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  header{
+      position:sticky;
+  }
+  img {
+    max-width:100%;
+  }
+  #blog {
+    background: url("https://www.alfabetajuega.com/wp-content/uploads/2021/04/naruto-fondo-de-pantalla-naruto-fondo-de-pantalla-.jpg") ;
+    background-size:contain;
+    
+  }
+  
+  #flex {
+    max-width:1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .flex_child {
+    width:300px;
+    padding: 0 10px;
+    margin: 30px;
+    border-radius:20px;
+    
+  }
+  .nombres_Portadas{
+    padding: 5px;
+    background: #fff;
+  }
+ 
+
+  /*flex>flex_child>post>info
+  flex = flex
+  flex-child = class"flex-child"
+  post = class="portadas_inicio"
+  info= class="nombres_Portadas"*/
+  
