@@ -15,21 +15,28 @@ body{
 }*/
 html{
     display: block;
+    background-color: black;
 }
+
   body {
     margin: 0;
     padding: 0;
+    background: url("https://www.alfabetajuega.com/wp-content/uploads/2021/04/naruto-fondo-de-pantalla-naruto-fondo-de-pantalla-.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
   }
+
   header{
       position:sticky;
   }
+
   img {
     max-width:100%;
   }
-  #blog {
-    background: url("https://www.alfabetajuega.com/wp-content/uploads/2021/04/naruto-fondo-de-pantalla-naruto-fondo-de-pantalla-.jpg") ;
-    background-size:contain;
-    
+
+  #blog{
+  
   }
   
   #flex {
@@ -42,7 +49,7 @@ html{
    
   }
   .flex_child {
-    width:300px;
+    width:200px;
     padding: 0 10px;
     margin: 30px;
     border-radius:20px;
@@ -53,6 +60,10 @@ html{
     background: #fff;
   }
  
+  .portada_img{
+      height: 280px;
+      width: 200px;
+  }
 
   /*flex>flex_child>post>info
   flex = flex
