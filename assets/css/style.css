@@ -50,21 +50,73 @@ html{
   }
   .flex_child {
     width:200px;
-    padding: 0 10px;
-    margin: 30px;
+    padding: 0px;
+    margin: 36px;
     border-radius:20px;
-    
   }
+
+
   .nombres_Portadas{
     padding: 5px;
     background: #fff;
   }
  
   .portada_img{
-      height: 280px;
+      height: 200px;
       width: 200px;
+      border-radius: 15px;
   }
 
+  .flex_child:hover{
+    height: 220px;
+    
+}
+
+  .nombres_Portadas h3{
+      text-align: center;
+  }
+
+  header{
+      background-color: black;
+      color: white;
+      width: 100%;
+      height:85px;
+      position: fixed;
+      top: 0;
+
+  }
+
+  #nombre{
+      text-align: right;
+      font-family: rockys;
+  }
+
+  #logo{
+      display:flex;
+      float: right;
+      margin-right: 40px;
+      align-items: center;
+  }
+
+  #logo #icono, #nombre{
+    
+     padding-right: 2px;
+  }
+
+  #icono{
+      width: 65px;
+  }
+
+  #aniplex{
+      
+      align-items: center;
+      margin-left: 20px;
+  }
+
+  #imagen_aniplex{
+    width: 150px;
+    height: 120px;
+  }
   /*flex>flex_child>post>info
   flex = flex
   flex-child = class"flex-child"
