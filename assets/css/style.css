@@ -17,29 +17,21 @@ html{
     display: block;
     background-color: black;
 }
-
-  body {
+body {
     margin: 0;
     padding: 0;
     background: url("https://www.alfabetajuega.com/wp-content/uploads/2021/04/naruto-fondo-de-pantalla-naruto-fondo-de-pantalla-.jpg") ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center ;
-  }
+}
 
-  header{
-      position:sticky;
-  }
-
-  img {
+img {
     max-width:100%;
-  }
+}
 
-  #blog{
   
-  }
-  
-  #flex {
+#flex {
     max-width:1200px;
     margin: 0 auto;
     display: flex;
@@ -47,76 +39,117 @@ html{
     justify-content: center;
     align-items: center;
    
-  }
-  .flex_child {
-    width:200px;
+}
+.flex_child {
+    width:220px;
+    height: 280px;
     padding: 0px;
-    margin: 36px;
-    border-radius:20px;
-  }
-
-
-  .nombres_Portadas{
-    padding: 5px;
-    background: #fff;
-  }
- 
-  .portada_img{
-      height: 200px;
-      width: 200px;
-      border-radius: 15px;
-  }
-
-  .flex_child:hover{
-    height: 220px;
+    margin: 40px;
+    border-radius:15px;
+    background-color: gray;
     
 }
 
-  .nombres_Portadas h3{
-      text-align: center;
-  }
 
-  header{
-      background-color: black;
-      color: white;
-      width: 100%;
-      height:85px;
-      position: fixed;
-      top: 0;
+.nombres_Portadas{
+    padding: 5px;
+    background: #fff;
+    width:24 ;
+}
+ 
+.portada_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    padding: 8px;
+}
 
-  }
+.flex_child:hover{
+    height: 245px;
+}
 
-  #nombre{
-      text-align: right;
-      font-family: rockys;
-  }
+.nombres_Portadas{
+    text-align: center;
+    background-color: gray;
+    border-radius: 15px;
+}
 
-  #logo{
-      display:flex;
-      float: right;
-      margin-right: 40px;
-      align-items: center;
-  }
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height:85px;
+    position: fixed;
+    top: 0;
 
-  #logo #icono, #nombre{
+}
+
+#nombre{
+    text-align: right;
+    font-family: rockys;
+}
+
+#logo{
+    display:flex;
+    float: right;
+    margin-right: 40px;
+    align-items: center;
+}
+
+#logo #icono, #nombre{
     
-     padding-right: 2px;
-  }
+    padding-right: 2px;
+}
 
-  #icono{
-      width: 65px;
-  }
+#icono{
+    width: 65px;
+}
 
-  #aniplex{
+#aniplex{
       
-      align-items: center;
-      margin-left: 20px;
-  }
+    align-items: center;
+    margin-left: 20px;
+}
 
-  #imagen_aniplex{
+#imagen_aniplex{
     width: 150px;
     height: 120px;
-  }
+}
+
+#flex_Criterios{
+    outline: 1px solid white;
+    display: flex;
+    justify-content:space-between ;
+    margin-left: 250px;
+    margin-right: 250px;
+      
+}
+
+#filtros{
+    outline: 1px solid white;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    height: 60px;
+}
+
+#correos{
+    display:flex;
+    justify-content: space-around;
+    font-family:monospace;
+    font-size: 20px;
+    font-weight: 70px;
+}
+  
+
+  
   /*flex>flex_child>post>info
   flex = flex
   flex-child = class"flex-child"
