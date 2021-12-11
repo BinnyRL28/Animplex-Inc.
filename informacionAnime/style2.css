@@ -1,18 +1,3 @@
-/*html{
-    background-color: rgba(83, 2, 2, 0.308);
-}
-
-body{
-    overflow: scroll;
-}
-
-#blog{
-    min-height: 100%;
-    background: url("https://www.alfabetajuega.com/wp-content/uploads/2021/04/naruto-fondo-de-pantalla-naruto-fondo-de-pantalla-.jpg") ;
-    background-repeat: no-repeat center center fixed ;
-    flex-grow: 1;
-    padding: 0.5rem 1rem;
-}*/
 html{
     display: block;
     background-color: black;
@@ -26,9 +11,6 @@ body {
     background-position: center ;
 }
 
-#blog{
-    background-color: rgba(16, 16, 56, 0.267);
-}
 img {
     max-width:100%;
 }
@@ -49,7 +31,7 @@ img {
     padding: 0px;
     margin: 40px;
     border-radius:15px;
-    background-color: rgb(1, 133, 248);
+    background-color: gray;
     
 }
 
@@ -73,7 +55,7 @@ img {
 
 .nombres_Portadas{
     text-align: center;
-    background-color: rgb(1, 133, 248);
+    background-color: gray;
     border-radius: 15px;
 }
 
