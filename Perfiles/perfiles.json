@@ -1,0 +1,42 @@
+var creadoras = {
+    "Nombre de la Página": "DatAnime",
+    "Grupo": "7",
+    "Integrantes": [
+      {
+          "Nombres": "Geraldine Ruby",
+          "Apellidos": "Ignacio Ramos",
+          "Edad":"17",
+          "Correo": "gignacio@estudiantes.crackthecode.la",
+          "Favoritos": [
+              "Bleach",
+              "Blue Exorcist",
+              "Demon Slayer",
+              "Natsume Yuujinchou"
+          ]
+      },
+      {
+        "Nombres":"Binny Benigna",
+        "Apellidos": "Romero Luna",
+        "Edad":"16",
+        "Correo": "bromero@estudiantes.crackthecode.la",
+        "Favoritos": [
+            "Naruto",
+            "Shigatsu no kimi no uso",
+            "Nanatsu no Taizai",
+            "Gakuen Alice"
+        ]
+    }, 
+    {
+        "Nombres":"Andrea",
+        "Apellidos": "Blancas",
+        "Edad":"17",
+        "Correo": "ablancas@estudiantes.crackthecode.la",
+        "Favoritos": [
+            "Yakusoku no Neverland",
+            "Kaguya-sama: Love is War",
+            "Fullmetal Alchemist",
+            "Sword Art Online"
+        ]
+    } 
+    ]
+}
