@@ -14,7 +14,7 @@ Baccano!
 Birdy the Mighty
 Bleach
 Blood+
-Blood: The Last Vampire
+Blood: The Last Vampire - movie
 Blue Exorcist
 Charlotte
 Cyborg Kurochan
@@ -23,18 +23,18 @@ D.Gray-man
 Darker Than Black
 Demashita! Powerpuff Girls Z
 Demon Slayer: Kimetsu no Yaiba
-Dog Days
+Dog Days Recap - OVA
 FLAG
 Fullmetal Alchemist
-Fullmetal Alchemist: Conquistador de Shamballa
-Gakkou no Kaidan (Ghost Stories)
+Fullmetal Alchemist: Conquistador de Shamballa - Película
+Gakkou no Kaidan (Ghost Stories) -- OVA
 Gakuen Alice
 Ginban Kaleidoscope
 Gintama
 Gravitation
 Great Teacher Onizuka (GTO)
-Harukanaru Toki no Naka de ~Maihitoyo~
-Honey and Clover
+Harukanaru Toki no Naka de ~Maihitoyo~ -- Película
+Honey and Clover -- OVA
 I'll CKBC
 Idaten Jump
 Initial D
@@ -46,7 +46,7 @@ Kamichu
 Kara no Kyōkai
 Kenichi
 Kiba
-Kikaider-01 - The Animation - Guitar wo Motta Shonen
+Kikaider-01 - The Animation - Guitar wo Motta Shonen -- OVA
 Kill la Kill
 King of Bandit Jing en el Séptimo Cielo
 King of Bandit Jing
@@ -69,9 +69,9 @@ Petite Cossette
 Puella Magi Madoka Magica
 R.O.D the TV
 Read or Die
-Roujin Z
+Roujin Z -- Pelicula
 Rurouni Kenshin
-Samurai X: Confianza y Traición
+Samurai X: Confianza y Traición -- OVA
 Shijō Saikyō no Deshi Kenichi
 Shiki
 Sekirei
@@ -88,3 +88,97 @@ xam'd the lost memories
 Yakitate!! Japan
 Yakusoku no Neverland
 Zankyou no Terror
+
+Type:
+
+A) Anime:
+1. A Channel
+2. Aldnoah.Zero 
+3. Angel Beats!
+4. Angel Heart
+5. Ayakashi Ayashi
+6. Baccano!
+7. Birdy the Mighty
+8. Bleach
+9. Blood+
+10. Blue Exorcist
+11. Charlotte
+12. Cyborg Kurochan
+13. City Hunter
+14. D.Gray-man
+15. Darker Than Black
+16. Demashita! Powerpuff Girls Z
+17. Demon Slayer: Kimetsu no Yaiba
+18. Dog Days Recap
+19. Fullmetal Alchemist
+20. Gakuen Alice
+21. Ginban Kaleidoscope
+22. Gintama
+23. Gravitation
+24. Great Teacher Onizuka (GTO)
+25. 
+26. 
+27.
+28.
+29.
+
+PELICULA
+
+30. Blood: The Last Vampire
+31. Fullmetal Alchemist: Conquistador de Shamballa
+32. Great Teacher Onizuka (GTO)
+Harukanaru Toki no Naka de ~Maihitoyo~ 
+33. Roujin Z
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+
+OVA:
+
+41. Dog Days Recap
+42. Gakkou no Kaidan (Ghost Stories)
+43. Honey and Clover
+44. Kikaider-01 - The Animation - Guitar wo Motta Shonen
+45. Samurai X: Confianza y Traición
+46.
+47.
+48.
+49.
+50.
+51.
+52.
+53.
+54.
+55.
+56.
+57.
+58.
+59.
+60.
+61.
+62.
+63.
+64.
+65.
+66.
+67.
+68.
+69.
+70.
+71.
+72.
+73.
+74.
+75.
+76.
+77.
+78.
+79.
+80.
+81.
+82.
+83.

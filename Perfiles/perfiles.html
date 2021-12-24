@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>DatAnime</title>
 </head>
 <body>
@@ -32,32 +32,47 @@
                     <a href=" ">Estadísticas</a>
                 </li>
                 <li>
-                    <a href=" ">Acerca de nosotras</a>
+                    <a href="perfiles.html">Acerca de nosotras</a>
                 </li>
+    
+
             </ul>
         </div>
     </nav>
     <main>
-        <form>
-            <img src="" alt="">
-            <div>
-                <p class="datos" id="dato1">
-               
-                </p>
+        <div class="conteiner">
+            <div class = "row mt-3">
+                <div class = "cat">
+                    <h2>Lista de creadoras</h2>
+                    <div class = "my-3">
+                        <table class = "tabla" id="lista-creadoras">
+                            <thead>
+                                <tr>
+                                 <th scope="cat">N°</th>
+                                <th scope="cat">Nombre</th>
+                                <th scope="cat">Correo</th>
+                                <th scope="cat">Animes favoritos</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                         </table>
+                    </div>
+                </div>
             </div>
-            
-        </form>
+        </div>
     </main>
-    
-     <script src="perfiles.json">
-       
-     </script>
-    <script>
-    var infoPersonal = creadoras.Integrantes[0];
-    console.log(infoPersonal); 
-    $('.datos').attr('p', infoPersonal);
-    </script>
+    <footer>
+        <div id="contenedor_Footer">
+            <div id="correos">
+                <p>bromero@estudiantes.crackthecode.la</p>
+                <p>gignacio@estudiantes.crackthecode.la</p>
+                <p>ablancas@estudiantes.crackthecode.la</p>
+            </div>
+        </div>
+    </footer>
 
-
+     <script src="perfiles.json"></script>
+     <script src="perfiles.js"></script>
 </body>
 </html>

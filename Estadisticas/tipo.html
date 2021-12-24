@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	theme: "dark1",
+	exportFileName: "Doughnut Chart",
+	exportEnabled: true,
+	animationEnabled: true,
+	title:{
+		text: "Tipo de Animación"
+	},
+	legend:{
+		cursor: "pointer",
+		itemclick: explodePie
+	},
+	data: [{
+		type: "doughnut",
+		innerRadius: 70,
+		showInLegend: true,
+		toolTipContent: "<strong><b>{name}</b></strong>: ${y} (#percent%)",
+		indexLabel: "{name} - #percent%",
+		dataPoints: [
+			{ y: 73, name: "Animes" },
+			{ y: 4, name: "Películas" },
+			{ y: 5, name: "OVAS" }
+		]
+	}]
+});
+chart.render();
+
+function explodePie (e) {
+	if(typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+		e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+	} else {
+		e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+	}
+	e.chart.render();
+}
+}
+
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

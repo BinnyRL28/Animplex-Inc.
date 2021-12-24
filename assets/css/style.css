@@ -20,14 +20,14 @@ html{
 body {
     margin: 0;
     padding: 0;
-    background: url("https://www.alfabetajuega.com/wp-content/uploads/2021/04/naruto-fondo-de-pantalla-naruto-fondo-de-pantalla-.jpg") ;
+    background: url("https://images3.alphacoders.com/105/thumb-1920-1053268.jpg") ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center ;
 }
 
 #blog{
-    background-color: rgba(16, 16, 56, 0.267);
+    background-color: rgba(2, 2, 59, 0.288);
 }
 img {
     max-width:100%;
@@ -49,15 +49,8 @@ img {
     padding: 0px;
     margin: 40px;
     border-radius:15px;
-    background-color: rgb(1, 133, 248);
+    background-color: rgba(249, 250, 196, 0.788);
     
-}
-
-
-.nombres_Portadas{
-    padding: 5px;
-    background: #fff;
-    width:24 ;
 }
  
 .portada_img{
@@ -72,12 +65,25 @@ img {
 }
 
 .nombres_Portadas{
+    padding: 5px;
+    background: #fff;
+    width:24 ;
     text-align: center;
-    background-color: rgb(1, 133, 248);
+    background-color: rgba(249, 250, 196, 0.788);
     border-radius: 15px;
 }
 
-header{
+.fondo_titulo:hover{
+    height: 50px;
+    padding: 5px;
+    background: #fff;
+    width:24 ;
+    text-align: center;
+    background-color: rgba(249, 250, 196, 0.788);
+    border-radius: 15px;
+}
+
+#header_index{
     background-color: black;
     color: white;
     width: 100%;
@@ -120,12 +126,30 @@ header{
 }
 
 #flex_Criterios{
-    outline: 1px solid white;
+   
     display: flex;
     justify-content:space-between ;
     margin-left: 250px;
     margin-right: 250px;
       
+}
+
+#flex_Criterios input{
+    width: 160px;
+    background-color: greenyellow;
+    border: 2px solid rgb(1, 53, 1);
+    border-radius: 10px;
+}
+
+#flex_Criterios select{
+    width: 160px;
+    background-color: greenyellow;
+    border: 2px solid rgb(1, 53, 1);
+    border-radius: 10px;
+}
+
+#flex_Criterios select option{
+    background-color: rgb(203, 247, 137);
 }
 
 #filtros{
@@ -152,6 +176,16 @@ footer{
 }
   
 
+table{
+    color: white;
+    padding: 15px;
+}
+th{
+    margin: 20px;
+}
+
+
+
   
   /*flex>flex_child>post>info
   flex = flex
@@ -159,3 +193,145 @@ footer{
   post = class="portadas_inicio"
   info= class="nombres_Portadas"*/
   
+  .body_informacion {
+    margin: 0;
+    padding: 0;
+    background: url("https://www.alfabetajuega.com/wp-content/uploads/2021/04/naruto-fondo-de-pantalla-naruto-fondo-de-pantalla-.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+}
+.header_informacion{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height:85px;
+}
+
+#section_informacion{
+    margin:100px;
+}
+
+.main_informacion{
+   margin-top: 190px;
+   background-color: white;
+   color: black;
+   border: 3px solid black;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: row;
+   margin-right: 130px;
+   margin-left: 230px;
+}
+
+#info1{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+.datos1{
+    text-align: center;
+}
+#info2{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+.sinopsis{
+    width: 600px;
+}
+.datos2{
+    text-align: center;
+}
+
+#datosDescriptivos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+#datosAnime{
+    display: flex;
+    flex-direction: column;
+}
+
+#datosAnime h3{
+    text-align: center;
+}
+
+#header_estadisticas{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height:85px;
+    position: fixed;
+    top: 0;
+}
+
+#body_estadisticas{
+    margin: 0px;
+    padding: 0;
+    background: url("https://images3.alphacoders.com/105/thumb-1920-1053268.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center ;  
+}
+
+.graficos{
+    margin: 29px;
+}
+
+#mitad{
+    display: flex;
+    
+}
+
+#mitad .graficos{
+    margin: 29px;
+}
+
+#contendorGraficos{
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+}
+
+#titulo_top{
+    font-family: fantasy;
+    font-size: 30px;
+    float: left;
+    font-weight: 50px;
+    color: white;
+    margin-left: 190px;
+}
+
+#main_estadisticas{
+    display:flex;
+    flex-direction: column;
+}
+
+#flex2{
+    max-width:1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_child_top{
+    width:220px;
+    height: 280px;
+    padding: 0px;
+    margin: 40px;
+    border-radius:15px;
+    background-color: rgb(47, 2, 73);
+}
+
+#section_estadisticas{
+    background-origin: green;
+    background-color:  rgba(2, 2, 59, 0.288);;
+}
+
+.
+

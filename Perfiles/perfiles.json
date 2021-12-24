@@ -1,23 +1,26 @@
-var creadoras = {
-    "Nombre de la Página": "DatAnime",
-    "Grupo": "7",
-    "Integrantes": [
+[
       {
-          "Nombres": "Geraldine Ruby",
-          "Apellidos": "Ignacio Ramos",
-          "Edad":"17",
-          "Correo": "gignacio@estudiantes.crackthecode.la",
-          "Favoritos": [
-              "Bleach",
-              "Blue Exorcist",
-              "Demon Slayer",
-              "Natsume Yuujinchou"
-          ]
+        "id" : 1,
+        "Nombre de la Página": "DatAnime",
+        "Grupo": 7,
+        "Nombres": "Geraldine Ruby",
+        "Apellidos": "Ignacio Ramos",
+        "Edad":17,
+        "Correo": "gignacio@estudiantes.crackthecode.la",
+        "Favoritos": [
+              " Bleach",
+              " Blue Exorcist",
+              " Demon Slayer",
+              " Natsume Yuujinchou"
+            ]
       },
       {
+        "id" : 2,
+        "Nombre de la Página": "DatAnime",
+        "Grupo": 7,
         "Nombres":"Binny Benigna",
         "Apellidos": "Romero Luna",
-        "Edad":"16",
+        "Edad":16,
         "Correo": "bromero@estudiantes.crackthecode.la",
         "Favoritos": [
             "Naruto",
@@ -27,9 +30,12 @@ var creadoras = {
         ]
     }, 
     {
+        "id" : 3,
+        "Nombre de la Página": "DatAnime",
+        "Grupo": 7,
         "Nombres":"Andrea",
         "Apellidos": "Blancas",
-        "Edad":"17",
+        "Edad":17,
         "Correo": "ablancas@estudiantes.crackthecode.la",
         "Favoritos": [
             "Yakusoku no Neverland",
@@ -38,5 +44,5 @@ var creadoras = {
             "Sword Art Online"
         ]
     } 
-    ]
-}
+    
+]
