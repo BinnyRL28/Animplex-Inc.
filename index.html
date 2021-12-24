@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styleSearch.css">
+    <link rel="stylesheet" href="assets/css/styleMenu.css">
+    
     <title>DatAnime</title>
 </head>
-<body>
+<body id="ctn-total">
     <div id="blog">
     <header>
         <div id="logo">
@@ -19,51 +22,132 @@
             </div>
         </div>
         <div id="aniplex">
-                <img id="imagen_aniplex" src="https://altarofgaming.com/wp-content/uploads/2020/08/aniplex-company-logo-altar-of-gaming.png" alt="Logo de Aniplex">
+                <img id="imagen_aniplex" src="https://altarofgaming.com/wp-content/uploads/2020/08/aniplex-company-logo-altar-of-gaming.png" alt="Logo de Aniplex"
+                href="index.html">
         </div>
-    </header>
-    <nav>
-        <div id="menú">
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href=" ">Estadísticas</a>
-                </li>
-                <li>
-                    <a href=" ">Acerca de nosotras</a>
-                </li>
+
+        <div id="ctn-menu">
+            <ul class="menuHorizontal">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Estadísticas</a></li>
+                <li><a href="">Acerca de nosotras</a></li>
             </ul>
         </div>
-    </nav>
+        
+    </header>
+
+    <div class="criterios" id="criterio_buscar">
+        <input type="text" id="inputSearch" placeholder="¿Qué estás buscando?">
+    </div>
+
+    <ul id="box-search">
+        <li><a href="informacionAnime/Aldnoah.Zero.html">Aldnoah.Zero</a></li>
+        <li><a href="informacionAnime/Angel Beats!.html">Angel Beats</a></li>
+        <li><a href="informacionAnime/Angel Heart.html">Angel Heart</a></li>
+        <li><a href="informacionAnime/Ayakashi Ayashi.html">Ayakashi Ayashi</a></li>
+        <li><a href="informacionAnime/A Channel.html">A Channel</a></li>
+        <li><a href="informacionAnime/Baccano!.html">Baccano!</a></li>
+        <li><a href="informacionAnime/Birdy the Mighty.html">Birdy the Mighty</a></li>
+        <li><a href="informacionAnime/Bleach.html">Bleach</a></li>
+        <li><a href="informacionAnime/Blood+.html">Blood+</a></li>
+        <li><a href="informacionAnime/Blood The Last Vampire.html">Blood: The Last Vampire</a></li>
+        <li><a href="informacionAnime/Blue Exorcist.html">Blue Exorcist</a></li>
+        <li><a href="informacionAnime/Charlotte.html">Charlotte</a></li>
+        <li><a href="informacionAnime/Cyborg Kurochan.html">Cyborg Kurochan</a></li>
+        <li><a href="informacionAnime/City Hunter.html">City Hunter</a></li>
+        <li><a href="informacionAnime/D.Gray-man.html">D.Gray-man</a></li>
+        <li><a href="informacionAnime/Darker Than Black.html">Darker Than Black</a></li>
+        <li><a href="informacionAnime/Demashita! Powerpuff Girls Z.html">Demashita! Powerpuff Girls Z</a></li>
+        <li><a href="informacionAnime/Demon Slayer Kimetsu no Yaiba.html">Demon Slayer: Kimetsu no Yaiba</a></li>
+        <li><a href="informacionAnime/Dog Days.html">Dog Days</a></li>
+        <li><a href="informacionAnime/FLAG.html">FLAG</a></li>
+        <li><a href="informacionAnime/Fullmetal Alchemist.html">Fullmetal Alchemist</a></li>
+        <li><a href="informacionAnime/Fullmetal Alchemist Conquistador de Shamballa.html">Fullmetal Alchemist: Conquistador de Shamballa</a></li>
+        <li><a href="informacionAnime/Gakkou no Kaidan (Ghost Stories.html">Gakkou no Kaidan (Ghost Stories)</a></li>
+        <li><a href="informacionAnime/Gakuen Alice.html">Gakuen Alice</a></li>
+        <li><a href="informacionAnime/Ginban Kaleidoscope.html">Ginban Kaleidoscope</a></li>
+        <li><a href="informacionAnime/Gintama.html">Gintama</a></li>
+        <li><a href="informacionAnime/Gravitation.html">Gravitation</a></li>
+        <li><a href="informacionAnime/Great Teacher Onizuka (GTO).html">Great Teacher Onizuka (GTO)</a></li>
+        <li><a href="informacionAnime/Harukanaru Toki no Naka de ~Maihitoyo~.html">Harukanaru Toki no Naka de ~Maihitoyo~</a></li>
+        <li><a href="informacionAnime/Honey and Clover.html">Honey and Clover</a></li>
+        <li><a href="informacionAnime/I'll CKBC.html">I'll CKBC</a></li>
+        <li><a href="informacionAnime/Idaten Jump.html">Idaten Jump</a></li>
+        <li><a href="informacionAnime/Initial D.html">Initial D</a></li>
+        <li><a href="informacionAnime/Jagainu-kun.html">Jagainu-kun</a></li>
+        <li><a href="informacionAnime/Jigoku Shoujo (Hell Girl).html">Jigoku Shoujo (Hell Girl)</a></li>
+        <li><a href="informacionAnime/Kage Kara Mamoru!.html">Kage Kara Mamoru!</a></li>
+        <li><a href="informacionAnime/Kaguya-sama Love is War.html">Kaguya-sama:Love is War</a></li>
+        <li><a href="informacionAnime/Kamichu.html">Kamichu</a></li>
+        <li><a href="informacionAnime/Kara no Kyōkai.html">Kara no Kyōkai</a></li>
+        <li><a href="informacionAnime/Kenichi.html">Kenichi</a></li>
+        <li><a href="informacionAnime/Kiba.html">Kiba</a></li>
+        <li><a href="informacionAnime/Kikaider-01- The Animation - Guitar wo Motta Shonen.html">Kikaider-01 - The Animation - Guitar wo Motta Shonen</a></li>
+        <li><a href="informacionAnime/Kill la Kill.html">Kill la Kill</a></li>
+        <li><a href="informacionAnime/King of Bandit Jing en el Séptimo Cielo.html">King of Bandit Jing en el Séptimo Cielo</a></li>
+        <li><a href="informacionAnime/King of Bandit Jing.html">King of Bandit Jing</a></li>
+        <li><a href="informacionAnime/Kiznaiver.html">Kiznaiver</a></li>
+        <li><a href="informacionAnime/Kuroshitsuji.html">Kuroshitsuji</a></li>
+        <li><a href="informacionAnime/Le Portrait de Petit Cossette.html">Le Portrait de Petit Cossette</a></li>
+        <li><a href="informacionAnime/Mirage of Blaze Rebels of The River Edge.html">Mirage of Blaze: Rebels of the River Edge</a></li>
+        <li><a href="informacionAnime/Monogatari (serie).html">Monogatari (serie)</a></li>
+        <li><a href="informacionAnime/Nanatsu no Taizai.html">Nanatsu no Taizai</a></li>
+        <li><a href="informacionAnime/Natsume Yuujinchou.html">Natsume Yuujinchou</a></li>
+        <li><a href="informacionAnime/Naruto.html">Naruto</a></li>
+        <li><a href="informacionAnime/Nerima Daikon Brothers.html">Nerima Daikon Brothers</a></li>
+        <li><a href="informacionAnime/Ore no Imōto ga Konna ni Kawaii Wake ga Nai.html">Ore no Imōto ga Konna ni Kawaii Wake ga Nai</a></li>
+        <li><a href="informacionAnime/Otohime Connection.html">Otohime Connection</a></li>
+        <li><a href="informacionAnime/Otome Yōkai Zakuro.html">Otome Yōkai Zakuro</a></li>
+        <li><a href="informacionAnime/Paradise Kiss.html">Paradise Kiss</a></li>
+        <li><a href="informacionAnime/Paprika.html">Paprika</a></li>
+        <li><a href="informacionAnime/Puella Magi Madoka Magica.html">Puella Magi Madoka Magica</a></li>
+        <li><a href="informacionAnime/R.O.D The TV.html">R.O.D the TV</a></li>
+        <li><a href="informacionAnime/Read or Die.html">Read or Die</a></li>
+        <li><a href="informacionAnime/Roujin Z.html">Roujin Z</a></li>
+        <li><a href="informacionAnime/Rurouni Kenshin.html">Rurouni Kenshin</a></li>
+        <li><a href="informacionAnime/Samurai X Confianza y Traición.html">Samurai X: Confianza y Traición</a></li>
+        <li><a href="informacionAnime/Shijō Saikyō no Deshi Kenichi.html">Shijō Saikyō no Deshi Kenichi</a></li>
+        <li><a href="informacionAnime/Shiki.html">Shiki</a></li>
+        <li><a href="informacionAnime/Sekirei.html">Sekirei</a></li>
+        <li><a href="informacionAnime/Soul Eater.html">Soul Eater</a></li>
+        <li><a href="informacionAnime/Star Driver.html">Star Driver</a></li>
+        <li><a href="informacionAnime/Sword Art Online.html">Sword Art Online</a></li>
+        <li><a href="informacionAnime/Shigatsu wa Kimi no Uso.html">Shigatsu wa Kimi no Uso</a></li>
+        <li><a href="informacionAnime/Submarine 707R.html">Submarine 707R</a></li>
+        <li><a href="informacionAnime/Tekkon kinkreet.html">Tekkon kinkreet</a></li>
+        <li><a href="informacionAnime/Tengen Toppa Gurren-Lagann.html">Tengen Toppa Gurren-Lagann</a></li>
+        <li><a href="informacionAnime/Terra e....html">Terra e...</a></li>
+        <li><a href="informacionAnime/Working!!.html">Working!!</a></li>
+        <li><a href="informacionAnime/Xam'd The Lost memories.html">Xam'd the lost memories</a></li>
+        <li><a href="informacionAnime/Yakitate!! Japan.html">Yakitate!! Japan</a></li>
+        <li><a href="informacionAnime/Yakusoku no Neverland.html">Yakusoku no Neverland</a></li>
+        <li><a href="informacionAnime/Zankyou no Terror.html">Zankyou no Terror</a></li>
+    </ul>
+
     <section>
         <main>
             <div id="contenerdorGeneral">
                     
                     <div id="contenedor_Criterios">
                         <div id= "flex_Criterios">
-                            <div class="criterios" id="criterio_buscar">
-                                <input type="text" id="buscar" placeholder="Buscar...">
-                            </div>
-                        <div id="filtros">
-                            <div class="criterios" id="criterio_ordenarPor">
-                                <select  id="ordenarPor">
-                                    <option value="De A a Z" disabled selected>De A a Z</option>
-                                    <option value="Fecha de Publicación">Fecha de Publicación</option>
-                                    <option value="De Z a A">De Z a A</option>
-                                    <option value="Más vistos">Más vistos</option>
-                                </select>
-                            </div>
-                            <div class="criterios" id="criterio_tipo">
-                                <select  id="tipos">
-                                    <option value="Todo" disabled selected>Todo</option>
-                                    <option value="Anime">Anime</option>
-                                    <option value="Película">Película</option>
-                                    <option value="OVA">OVA</option>
-                                
-                                </select>
-                            </div>
+                            <div id="filtros">
+                                <div class="criterios" id="criterio_ordenarPor">
+                                    <select  id="ordenarPor">
+                                        <option value="De A a Z" disabled selected>De A a Z</option>
+                                        <option value="Fecha de Publicación">Fecha de Publicación</option>
+                                        <option value="De Z a A">De Z a A</option> 
+                                        <option value="Más vistos">Más vistos</option>
+                                    </select>
+                                </div>
+                                <div class="criterios" id="criterio_tipo">
+                                    <select  id="tipos">
+                                        <option value="Todo" disabled selected>Todo</option>
+                                        <option value="Anime">Anime</option>
+                                        <option value="Película">Película</option>
+                                        <option value="OVA">OVA</option>
+                                    </select>
+                                </div>
+                            </div>    
                             <div class="criterios" id="criterio_genero">
                                 <select  id="generos">
                                     <option value=" Todo" disabled selected>Todo</option>
@@ -110,10 +194,10 @@
                                 </select>
                             </div>
                         </div>
-                        </div>
-
                     </div>
+
                     <div id="flex">
+                        
                         <div class="flex_child" id="flex_child_Aldnoah.Zero">
                             <div class="portadas_inicio" id="portadas_inicio_Aldnoah.Zero">
                                     
@@ -1013,7 +1097,7 @@
                         </div>
 
                     </div>
-                </div>
+
             </div>
         </main>
         
@@ -1027,7 +1111,7 @@
             </div>
         </div>
     </footer>
-    <script src=""></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
 
