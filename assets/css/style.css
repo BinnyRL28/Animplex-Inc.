@@ -26,8 +26,14 @@ body {
     background-position: center ;
 }
 
+
+#nav_index{
+    margin: 0px;
+}
+
 #blog{
     background-color: rgba(2, 2, 59, 0.288);
+    margin: 0px;
 }
 img {
     max-width:100%;
@@ -41,46 +47,71 @@ img {
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
+    width:1400px;
    
 }
 .flex_child {
-    width:220px;
-    height: 280px;
+    margin-top:80px;
+    margin-bottom:80px;
+    margin-left:15px;
+    margin-right:15px;
+    width:209px;
+    height: 209px;
     padding: 0px;
-    margin: 40px;
+    
     border-radius:15px;
-    background-color: rgba(249, 250, 196, 0.788);
+    background-color: rgb(54, 2, 83);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 18px rgb(235, 190, 255) ;
     
 }
  
 .portada_img{
-    height: 200px;
-    width: 200px;
+    height: 195px;
+    width: 195px;
     border-radius: 15px;
-    padding: 8px;
+    padding-left:7px;
+    padding-right:2px;
+    padding-top:5px;
+    padding-bottom:2px;
+    /* outline: 3px solid pink; */
 }
 
 .flex_child:hover{
-    height: 245px;
+    margin-bottom:70px;
+    box-shadow:  0 0 5px rgb(173, 64, 224), 0 0 15px rgb(173, 64, 224), 0 0 15px rgb(173, 64, 224);
 }
 
 .nombres_Portadas{
-    padding: 5px;
-    background: #fff;
-    width:24 ;
-    text-align: center;
-    background-color: rgba(249, 250, 196, 0.788);
-    border-radius: 15px;
+   /* background-color: rgb(54, 2, 83); */
+   height: 40px;
+   /* outline: 1px solid greenyellow; */
+   margin-left:3px;
+   margin-top:0;
+   align-content: center;
+   /* padding-top:1px; */
 }
 
-.fondo_titulo:hover{
-    height: 50px;
-    padding: 5px;
-    background: #fff;
-    width:24 ;
+.fondo_titulo{
+    margin-top:9px;
+    height: 20px;
+    /* border: 5px solid rgb(54, 2, 83);;
+    border-radius: 9px;
+    outline: 1px solid white;
+    background-color: rgb(181, 111, 247); */
+}
+
+.fondo_titulo h3{
+    color: black;
+    outline: 2px solid black;
     text-align: center;
-    background-color: rgba(249, 250, 196, 0.788);
-    border-radius: 15px;
+    margin: 0;
+    border: 5px solid rgb(54, 2, 83);;
+    border-radius: 9px;
+    /* outline: 1px solid white; */
+    background-color: rgb(204, 151, 253);
+    
 }
 
 #header_index{
@@ -90,7 +121,6 @@ img {
     height:85px;
     position: fixed;
     top: 0;
-
 }
 
 #nombre{
@@ -196,7 +226,7 @@ th{
   .body_informacion {
     margin: 0;
     padding: 0;
-    background: url("https://www.alfabetajuega.com/wp-content/uploads/2021/04/naruto-fondo-de-pantalla-naruto-fondo-de-pantalla-.jpg") ;
+    background: url("https://images3.alphacoders.com/105/thumb-1920-1053268.jpg") ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center ;
@@ -303,29 +333,48 @@ th{
     font-weight: 50px;
     color: white;
     margin-left: 190px;
+    text-shadow: 0 0 10px rgb(37, 1, 54), 0 0 5px rgb(37, 1, 54), 0 0 15px rgb(173, 64, 224), 0 0 15px rgb(173, 64, 224);
 }
 
 #main_estadisticas{
     display:flex;
     flex-direction: column;
+    padding-top:150px;
 }
 
-#flex2{
+#flex1{
     max-width:1200px;
     margin: 0 auto;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap:wrap; 
     justify-content: center;
     align-items: center;
 }
 
 .flex_child_top{
-    width:220px;
-    height: 280px;
+    /* outline: 3px solid blue; */
+    margin-top: 90px;
+    margin-left:15px;
+    margin-right:15px;
+    width:209px;
+    height: 209px;
     padding: 0px;
-    margin: 40px;
+    
     border-radius:15px;
-    background-color: rgb(47, 2, 73);
+    background-color: rgb(54, 2, 83);
+    align-items: center;
+    justify-content: center;
+}
+
+.top_img{
+    height: 195px;
+    width: 195px;
+    border-radius: 15px;
+    padding-left:7px;
+    padding-right:2px;
+    padding-top:5px;
+    padding-bottom:2px;
+    /* outline: 3px solid pink; */
 }
 
 #section_estadisticas{
@@ -333,5 +382,34 @@ th{
     background-color:  rgba(2, 2, 59, 0.288);;
 }
 
-.
+.nombres_top{
+    /* background-color: rgb(54, 2, 83); */
+    height: 40px;
+    /* outline: 1px solid greenyellow; */
+    margin-left:3px;
+    margin-top:0;
+    align-content: center;
+    /* padding-top:1px; */
+}
 
+.fondo_titulo_top{
+    margin-top:9px;
+    height: 20px;
+    border: 5px solid rgb(54, 2, 83);;
+    border-radius: 9px;
+    /* outline: 1px solid white; */
+    background-color: rgb(181, 111, 247);
+    
+}
+
+.fondo_titulo_top h3{
+    color: black;
+    outline: 2px solid black;
+    text-align: center;
+    margin: 0;
+    
+}
+
+a{
+    text-decoration: none;
+}
