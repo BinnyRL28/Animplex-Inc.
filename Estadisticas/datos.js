@@ -1,4 +1,4 @@
-function reating() {
+function Rating() {
 
     var chart = new CanvasJS.Chart("chartContainer1", {
       theme: "dark1", // "light1", "light2", "dark1"
@@ -120,7 +120,7 @@ function reating() {
 
 
   function abarcadora(){
-    reating();
+    Rating();
     score();
     typeAnimation();
   }

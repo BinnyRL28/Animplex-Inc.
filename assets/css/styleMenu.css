@@ -87,8 +87,18 @@ li{
     top: 5%;
     transform: translate(50%, 50%);
     margin-left: -120px;
-   
-    
+}
+
+#ctn-menu_informacion{
+    margin:auto;
+    display: inline-block;
+    justify-content: center;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 2%;
+    transform: translate(50%, 50%);
+    margin-left: -120px;
 }
 
 ul{
