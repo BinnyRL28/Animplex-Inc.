@@ -264,7 +264,7 @@ th{
 
 #titulo_top{
     font-family: fantasy;
-    font-size: 30px;
+    font-size: 40px;
     float: left;
     font-weight: 50px;
     color: white;
@@ -591,3 +591,162 @@ a{
     height: 60px;
 }
 
+#header_perfiles{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height:85px;
+    position: fixed;
+    top: 0;
+}
+
+#body_perfiles{
+    margin: 0px;
+    padding: 0;
+    background: url("https://images3.alphacoders.com/105/thumb-1920-1053268.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center ;  
+}
+
+#main_perfiles{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top:100px;
+    background-color: rgba(38, 1, 73, 0.226);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cat h2{
+    display: block;
+    font-size:50px;
+    font-family:cursive;
+    color:white;
+    text-shadow: 0 0 10px rgb(37, 1, 54), 0 0 5px rgb(37, 1, 54), 0 0 15px rgb(173, 64, 224), 0 0 15px rgb(173, 64, 224);
+    /* outline:1px solid white; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.my-3 thead{
+    background-color:rgba(48, 1, 48, 0.884);
+}
+
+.my-3 tbody{
+    background-color: rgba(235, 190, 255, 0.822);
+    color:black;
+    font-size: 18px;
+    text-align:center;
+}
+
+.my-3 tbody td{
+    padding:10px;
+    font-weight: 900px;
+    
+}
+
+.tablaEncabezado{
+    font-size:20px;
+    padding:10px;
+    margin-left:90px;
+    margin-right:90px;
+}
+/* .my-3 tbody{
+    margin:10px;
+} */
+
+.conteiner{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    /* outline: 5px solid white; */
+}
+
+.rowmt-3{
+    /* outline:2px solid tomato; */
+    justify-content: center;
+}
+.cat{
+    justify-content:center;
+    /* outline:5px solid turquoise; */
+}
+
+#listaCreadoras{
+    margin:10px;
+}
+
+.my-3{
+    justify-items: center;
+    align-items: center;
+    /* outline:2px solid green; */
+}
+
+.tabla{
+    justify-items: center;
+    align-items: center;
+    /* outline:2px solid yellow; */
+}
+
+#datosPersonalizados{
+    /* outline: 4px solid violet; */
+    margin:60px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#datosPersonalizados h3{
+    display: block;
+    font-size:50px;
+    font-family:cursive;
+    color:white;
+    text-shadow: 0 0 10px rgb(37, 1, 54), 0 0 5px rgb(37, 1, 54), 0 0 15px rgb(173, 64, 224), 0 0 15px rgb(173, 64, 224);
+    /* outline:1px solid white; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contenedoresPersonalizados{
+    margin: 10px;
+}
+
+form{
+    padding:5px;
+    border-radius: 20px;
+    border:5px solid rgb(48, 1, 48);
+}
+
+#datosBinny, #datosGeraldine{
+    text-align: center;
+    padding:2px;
+    border-bottom:5px solid rgb(48, 1, 48);
+    background-color: rgb(48, 1, 48);
+    border-radius:15px;
+}
+
+#datosBinny u{
+    text-decoration: none;
+    font-size:25px;
+    font-family: monospace;
+    color:white;
+}
+
+#datosGeraldine u{
+    text-decoration: none;
+    font-size:25px;
+    font-family: monospace;
+    color:white;
+}
+
+.infopersonal{
+    background-color: rgba(235, 190, 255, 0.822);
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    padding:4px;
+}

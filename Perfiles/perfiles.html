@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/styleSearch.css">
     <link rel="stylesheet" href="../assets/css/styleMenu.css">
-  <link rel="stylesheet" href="../assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>DatAnime</title>
 </head>
-<body>
-    <header>
+<body id="body_perfiles">
+    <header id="header_perfiles">
         <div id="logo">
             <div id = "icono">
                 <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjIyhXcomKj5Z0YIz4hFNMW675BZ1plTRHp0rZqCBtx98uBF0jXLCpt69TRCPOjQLb61sQoGo6tfYm6Sg4DTRQoc1nIguempaVa_MGdbM6SpezawQQ3G5dcvXX2MvPlEnbHk7jpHieIYJWVoCTRAPOpwaBKW-bizo_Xg-G0qTaWwVBYcKh_KSJIrCAq=s500" alt="Icono de DatAnime">
@@ -32,19 +32,20 @@
                 </ul>
             </div>
     </header>
-    <main>
+    <main id="main_perfiles">
         <div class="conteiner">
-            <div class = "row mt-3">
+            <div class = "rowmt-3">
                 <div class = "cat">
                     <h2>Lista de creadoras</h2>
                     <div class = "my-3">
                         <table class = "tabla" id="lista-creadoras">
                             <thead>
                                 <tr>
-                                 <th scope="cat">N°</th>
-                                <th scope="cat">Nombre</th>
-                                <th scope="cat">Correo</th>
-                                <th scope="cat">Animes favoritos</th>
+                                <th class="tablaEncabezado">N°</th>
+                                <th class="tablaEncabezado">Nombre</th>
+                                <th class="tablaEncabezado">Apellido</th>
+                                <th class="tablaEncabezado">Grupo</th>
+                                <th class="tablaEncabezado">Correo</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -53,9 +54,52 @@
                     </div>
                 </div>
             </div>
+            <div id="datosPersonalizados">
+                <h3>Datos Personalizados</h3>
+                <div class="contenedoresPersonalizados" id="contenedorBinny">
+                    <form>
+                        <h2 id="datosBinny"><u>Binny Romero</u></h2>
+                        <div class="infopersonal">
+                            <ul>
+                                <li type=a><strong>Fecha de Nacimiento: </strong> 28-07-2005</li>
+                                <li type=a><strong>Edad: </strong> 16 años</li>
+                                <li type=a><strong>Personaje favorito: </strong>Ban</li>
+                                <li type=a><strong>Animes preferidos: </strong>
+                                <ul>
+                                    <div id=animesPreferidosBinny>
+                                    <li type=1>Naruto</li>
+                                    <li type=1>Shigatsu Wa kimi no Uso</li>
+                                    <li type=1>Nanatsu no Taizai</li>
+                                    <li type=1>Gakuen Alice</li></div>
+                                </ul></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+                <div class="contenedoresPersonalizados" id="contenedorGeraldine">
+                    <form>
+                        <h2 id="datosGeraldine"><u>Geraldine Ignacio</u></h2>
+                        <div class="infopersonal">
+                            <ul>
+                                <li type=a><strong>Fecha de Nacimiento: </strong> 3-06-2004</li>
+                                <li type=a><strong>Edad: </strong>17</li>
+                                <li type=a><strong>Personaje favorito: </strong>Tanjiro</li>
+                                <li type=a><strong>Animes preferidos: </strong>
+                                <ul>
+                                    <div id=animesPreferidosGeraldine>
+                                    <li type=1>Bleach</li>
+                                    <li type=1>Blue Exorcist</li>
+                                    <li type=1>Demon Slayer</li>
+                                    <li type=1>Natsume Yuujinchou</li></div>
+                                </ul></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </main>
-    <footer>
+    <footer id="footer_estadisticas">
         <div id="contenedor_Footer">
             <div id="correos">
                 <p>bromero@estudiantes.crackthecode.la</p>

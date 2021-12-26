@@ -2,7 +2,6 @@
     console.log(infoPersonal); */
 
 /* const tabla = document.querySelector('#lista-creadoras tbody');
-
 function cargarCreadoras(){
     fetch('perfiles.json')
         .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
@@ -20,10 +19,9 @@ function cargarCreadoras(){
         }) // Aquí mostramos dicha información
         .catch(error => console.log('Hubo un error : ' + error.message))
 }
-
 cargarCreadoras(); */
 
-const tabal=document.querySelector('#lista-creadoras tbody');
+const tabla=document.querySelector('#lista-creadoras tbody');
 
 function cargarInformacion(){
     fetch ('perfiles.json')
@@ -34,13 +32,16 @@ function cargarInformacion(){
             row.innerHTML +=`
             <td>${perfiles.id}</td>
             <td>${perfiles.Nombres}</td>
-            <td><p>${perfiles.Correo}</p></td>
-            <td>${perfiles.Favoritos}</td>
+            <td>${perfiles.Apellidos}</td>
+            <td>${perfiles.Grupo}</td>
+            <td>${perfiles.Correo}</td>
+            
             `;
-            tabal.appendChild(row);
+            tabla.appendChild(row);
         });
     })//Aquí mostramos la información
 }
+
 
 cargarInformacion();
 
