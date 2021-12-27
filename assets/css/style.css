@@ -692,7 +692,10 @@ a{
 
 #datosPersonalizados{
     /* outline: 4px solid violet; */
-    margin:60px;
+    margin-top:00px;
+    margin-bottom:20px;
+    margin-left:60px;
+    margin-right:60px;
     justify-content: center;
     align-items: center;
     
