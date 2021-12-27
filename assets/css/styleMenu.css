@@ -2,7 +2,6 @@
     margin:0px;
     padding:0px;
 }
-
 #ctn-menu {
     margin:auto;
     display: inline-block;
@@ -20,18 +19,15 @@
     /* outline: 1px solid white; */
 /*     
 }
-
 ul{
     list-style:none;
     display: flex;
     flex-grow: row;
 }
-
 .menuHorizontal > li {
     float:left;
     
 }
-
 .menuHorizontal li a {
     background-color:#000;
     color:#fff;
@@ -47,27 +43,22 @@ ul{
     border-radius: 3px;
     
 }
-
 .menuHorizontal li ul {
     display:none;
     position:absolute;
     min-width:140px;
 }
-
 .menuHorizontal li:hover > ul {
     
     display:block;
 }
-
 .menuHorizontal li ul li {
     position:relative;
 }
-
 .menuHorizontal li ul li ul {
     right:-140px;
     top:0px;
 }
-
 li{
     margin-right: 5px;
 } */
