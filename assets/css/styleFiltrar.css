@@ -1,0 +1,150 @@
+input[type="radio"]{
+    display: none;
+}
+
+.container-category{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container-category label{
+    padding: 6px 40px;
+    margin: 10px;
+    font-size: 20px;
+    background: #e2e2e2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-category label:hover{
+    opacity: 0.8;
+}
+
+
+[ value="todo"]:checked ~ #flex .flex_child:not([data-category~="todo"]),
+[ value="accion"]:checked ~ #flex .flex_child:not([data-category~="accion"]),
+[ value="artes_marciales"]:checked ~ #flex .flex_child:not([data-category~="artes_marciales"]),
+[ value="aventura"]:checked ~ #flex .flex_child:not([data-category~="aventura"]),
+[ value="carreras"]:checked ~ #flex .flex_child:not([data-category~="carreras"]),
+[ value="ciencia Ficcion"]:checked ~ #flex .flex_child:not([data-category~="ciencia_ficcion"]),
+[ value="comedia"]:checked ~ #flex .flex_child:not([data-category~="comedia"]),
+[ value="comedia Cinematografica"]:checked ~ #flex .flex_child:not([data-category~="comedia_cinematografica"]),
+[ value="comedia dramatica"]:checked ~ #flex .flex_child:not([data-category~="comedia_dramatica"]),
+[ value="demencia"]:checked ~ #flex .flex_child:not([data-category~="demencia"]),
+[ value="demonios"]:checked ~ #flex .flex_child:not([data-category~="demonios"]),
+[ value="deportes"]:checked ~ #flex .flex_child:not([data-category~="deportes"]),
+[ value="donghua"]:checked ~ #flex .flex_child:not([data-category~="donghua"]),
+[ value="drama"]:checked ~ #flex .flex_child:not([data-category~="drama"]),
+[ value="ecchi"]:checked ~ #flex .flex_child:not([data-category~="ecchi"]),
+[ value="escolar"]:checked ~ #flex .flex_child:not([data-category~="escolar"]),
+[ value="espaciales espacio"]:checked ~ #flex .flex_child:not([data-category~="espcailes espacio"]),
+[ value="fantasía"]:checked ~ #flex .flex_child:not([data-category~="fantasia"]),
+[ value="harem"]:checked ~ #flex .flex_child:not([data-category~="harem"]),
+[ value="historico"]:checked ~ #flex .flex_child:not([data-category~="historico"]),
+[ value="infantil"]:checked ~ #flex .flex_child:not([data-category~="infantil"]),
+[ value="isekai"]:checked ~ #flex .flex_child:not([data-category~="isekai"]),
+[ value="josei"]:checked ~ #flex .flex_child:not([data-category~="josei"]),
+[ value="juegos"]:checked ~ #flex .flex_child:not([data-category~="juegos"]),
+[ value="magia"]:checked ~ #flex .flex_child:not([data-category~="magia"]),
+[ value="mecha"]:checked ~ #flex .flex_child:not([data-category~="mecha"]),
+[ value="misterio"]:checked ~ #flex .flex_child:not([data-category~="misterio"]),
+[ value="musical"]:checked ~ #flex .flex_child:not([data-category~="muscial"]),
+[ value="pparodia"]:checked ~ #flex .flex_child:not([data-category~="parodia"]),
+[ value="policía"]:checked ~ #flex .flex_child:not([data-category~="policia"]),
+[ value="psicologico"]:checked ~ #flex .flex_child:not([data-category~="psicologico"]),
+[ value="recuentos_de_la_vida"]:checked ~ #flex .flex_child:not([data-category~="recuentos_de_la_vida"]),
+[ value="romance"]:checked ~ #flex .flex_child:not([data-category~="romance"]),
+[ value="samurai"]:checked ~ #flex .flex_child:not([data-category~="samurai"]),
+[ value="seinen"]:checked ~ #flex .flex_child:not([data-category~="seinen"]),
+[ value="shoujo"]:checked ~ #flex .flex_child:not([data-category~="shoujo"]),
+[ value="shounen"]:checked ~ #flex .flex_child:not([data-category~="shounen"]),
+[ value="sobrenatural"]:checked ~ #flex .flex_child:not([data-category~="sobrenatural"]),
+[ value="superpoderes"]:checked ~ #flex .flex_child:not([data-category~="superopoderes superpode"]),
+[ value="suspenso"]:checked ~ #flex .flex_child:not([data-category~="suspenso"]),
+[ value="terror gore"]:checked ~ #flex .flex_child:not([data-category~="terror gore"]),
+[ value="vampiros"]:checked ~ #flex .flex_child:not([data-category~="vampiros"]),
+[ value="vanguardia"]:checked ~ #flex .flex_child:not([data-category~="vanguardia"]),
+[ value="yaoi boys_love"]:checked ~ #flex .flex_child:not([data-category~="yaoi boys_love"]),
+[ value="yuri"]:checked ~ #flex .flex_child:not([data-category~="yuri"]){
+    display: none;
+}
+
+[value="todo"]:checked ~ .container_category [for="todo"],
+[value="accion"]:checked ~ .container_category [for="accion"],
+[value="artes_marciales"]:checked ~ .container_category [for="artes_marciales"],
+[value="aventura"]:checked ~ .container_category [for="aventura"],
+[value="carreras"]:checked ~ .container_category [for="carreras"],
+[value="ciencia_ficcion"]:checked ~ .container_category [for="ciencia_ficcion"],
+[value="comedia"]:checked ~ .container_category [for="comedia"],
+[value="comedia_cinematografica"]:checked ~ .container_category [for="comedia_cinematografica"],
+[value="comedia_dramatica"]:checked ~ .container_category [for="comedia_dramatica"],
+[value="demencia"]:checked ~ .container_category [for="demencia"],
+[value="demonios"]:checked ~ .container_category [for="demonios"],
+[value="deportes"]:checked ~ .container_category [for="deportes"],
+[value="donghua"]:checked ~ .container_category [for="donghua"],
+[value="drama"]:checked ~ .container_category [for="drama"],
+[value="ecchi"]:checked ~ .container_category [for="ecchi"],
+[value="escolar"]:checked ~ .container_category [for="escolar"],
+[value="espcailes espacio"]:checked ~ .container_category [for="espcailes espacio"],
+[value="fantasia"]:checked ~ .container_category [for="fantasia"],
+[value="harem"]:checked ~ .container_category [for="harem"],
+[value="historico"]:checked ~ .container_category [for="historico"],
+[value="infantil"]:checked ~ .container_category [for="infantil"],
+[value="isekai"]:checked ~ .container_category [for="isekai"],
+[value="josei"]:checked ~ .container_category [for="josei"],
+[value="juegos"]:checked ~ .container_category [for="juegos"],
+[value="magia"]:checked ~ .container_category [for="magia"],
+[value="mecha"]:checked ~ .container_category [for="mecha"],
+[value="misterio"]:checked ~ .container_category [for="misterio"],
+[value="muscial"]:checked ~ .container_category [for="muscial"],
+[value="parodia"]:checked ~ .container_category [for="parodia"],
+[value="policia"]:checked ~ .container_category [for="policia"],
+[value="psicologico"]:checked ~ .container_category [for="psicologico"],
+[value="recuentos_de_la_vida"]:checked ~ .container_category [for="recuentos_de_la_vida"],
+[value="romance"]:checked ~ .container_category [for="romance"],
+[value="samurai"]:checked ~ .container_category [for="samurai"],
+[value="seinen"]:checked ~ .container_category [for="seinen"],
+[value="shoujo"]:checked ~ .container_category [for="shoujo"],
+[value="shounen"]:checked ~ .container_category [for="shounen"],
+[value="sobrenatural"]:checked ~ .container_category [for="sobrenatural"],
+[value="superopoderes superpoder"]:checked ~ .container_category [for="superopoderes superpoder"],
+[value="suspenso"]:checked ~ .container_category [for="suspenso"],
+[value="terror"]:checked ~ .container_category [for="terror"],
+[value="vampiros"]:checked ~ .container_category [for="vampiros"],
+[value="vanguardia"]:checked ~ .container_category [for="vanguardia"],
+[value="yaoi boys_love"]:checked ~ .container_category [for="yaoi boys_love"],
+[value="yuri"]:checked ~ .container_category [for="yuri"]{
+    background-color: #46a2fd;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
