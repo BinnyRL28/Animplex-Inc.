@@ -854,6 +854,10 @@ form{
     font-size: 18px;
     margin: 7px;
 }
+#filtroGeneros label:hover{
+    background: #a14fff;
+    color:black;
+}
 hr{
     font-weight: 30px;
 }
