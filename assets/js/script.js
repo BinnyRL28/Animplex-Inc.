@@ -32,3 +32,9 @@ function buscador_interno(){
 }
 
 //Filtros
+
+$(function(){
+    $('#show').click(function(){
+      $('#button').toggle();
+    });
+  })

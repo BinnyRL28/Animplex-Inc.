@@ -66,8 +66,8 @@ img {
 }
  
 .portada_img{
-    height: 195px;
-    width: 195px;
+    height: 200px;
+    width: 203px;
     border-radius: 15px;
     padding-left:7px;
     padding-right:2px;
@@ -92,8 +92,9 @@ img {
 }
 
 .fondo_titulo{
-    margin-top:9px;
+    margin-top:26px;
     height: 20px;
+    margin-bottom:20px;
     /* border: 5px solid rgb(54, 2, 83);;
     border-radius: 9px;
     outline: 1px solid white;
@@ -101,6 +102,8 @@ img {
 }
 
 .fondo_titulo h3{
+    font-family:monospace;
+    font-size:22px;
     color: black;
     outline: 2px solid black;
     text-align: center;
@@ -750,4 +753,93 @@ form{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 15px;
     padding:4px;
+}
+.labelAlfabeto{
+    outline:2px solid rgb(201, 16, 238);
+    margin:5px;
+    padding:0;
+}
+
+#filtroAlfabeto{
+    outline: 2px solid blue;
+    width: auto;
+    display:flex;
+    flex-wrap:row;
+    text-align: center;
+    align-items: center;
+}
+
+#filtroAlfabeto label{
+    /* width: 2px;
+    height: 3px; */
+    
+    background-color: black;
+    color:white;
+    /* background: #c1a0e7; */
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-right: 9px;
+    padding-left: 9px;
+    margin: 3px;
+}
+
+#filtroAlfabeto label:hover{
+    background: #a556ff;
+    color:black;
+}
+
+#filtroSuperior{
+    outline: 2px solid yellow;
+    width: 100%;;
+    display: flex;
+    justify-content:space-around;
+}
+.labelTipo{
+        outline:2px solid rgb(201, 16, 238);
+        margin:5px;
+        padding:0;
+        background-color: black;
+}
+#filtroTipo{
+    outline: 2px solid orange;
+    width: auto;
+    display:flex;
+    flex-wrap:row;
+    text-align: center;
+    align-items: center;
+}
+
+#filtroTipo label{    
+    background-color: yellow;
+    color:color;
+    padding:2px;
+    margin: 3px;
+}
+
+#filtroTipo label:hover{
+    background: #a556ff;
+    color:black;
+}
+
+#filtroGeneros{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+#filtroTipo label{
+    background: #e2e2e2;
+    padding: 6px 40px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#filtroGeneros label{
+    background: #e2e2e2;
+    padding: 6px 40px;
+    font-size: 20px;
+    margin: 10px;
+}
+hr{
+    font-weight: 30px;
 }

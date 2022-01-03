@@ -3,18 +3,12 @@ input[type="radio"]{
 }
 
 .container-category{
-    width: 100%;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 90px;
 }
 
 .container-category label{
-    padding: 6px 40px;
-    margin: 10px;
-    font-size: 20px;
-    background: #e2e2e2;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -29,19 +23,19 @@ input[type="radio"]{
 [ value="artes_marciales"]:checked ~ #flex .flex_child:not([data-category~="artes_marciales"]),
 [ value="aventura"]:checked ~ #flex .flex_child:not([data-category~="aventura"]),
 [ value="carreras"]:checked ~ #flex .flex_child:not([data-category~="carreras"]),
-[ value="ciencia Ficcion"]:checked ~ #flex .flex_child:not([data-category~="ciencia_ficcion"]),
+[ value="ciencia_ficcion"]:checked ~ #flex .flex_child:not([data-category~="ciencia_ficcion"]),
 [ value="comedia"]:checked ~ #flex .flex_child:not([data-category~="comedia"]),
-[ value="comedia Cinematografica"]:checked ~ #flex .flex_child:not([data-category~="comedia_cinematografica"]),
-[ value="comedia dramatica"]:checked ~ #flex .flex_child:not([data-category~="comedia_dramatica"]),
+[ value="comedia_cinematografica"]:checked ~ #flex .flex_child:not([data-category~="comedia_cinematografica"]),
+[ value="comedia_dramatica"]:checked ~ #flex .flex_child:not([data-category~="comedia_dramatica"]),
 [ value="demencia"]:checked ~ #flex .flex_child:not([data-category~="demencia"]),
 [ value="demonios"]:checked ~ #flex .flex_child:not([data-category~="demonios"]),
 [ value="deportes"]:checked ~ #flex .flex_child:not([data-category~="deportes"]),
 [ value="donghua"]:checked ~ #flex .flex_child:not([data-category~="donghua"]),
 [ value="drama"]:checked ~ #flex .flex_child:not([data-category~="drama"]),
 [ value="ecchi"]:checked ~ #flex .flex_child:not([data-category~="ecchi"]),
-[ value="escolar"]:checked ~ #flex .flex_child:not([data-category~="escolar"]),
+[ value="escolar escolares "]:checked ~ #flex .flex_child:not([data-category~="escolar escolares"]),
 [ value="espaciales espacio"]:checked ~ #flex .flex_child:not([data-category~="espcailes espacio"]),
-[ value="fantasía"]:checked ~ #flex .flex_child:not([data-category~="fantasia"]),
+[ value="fantasia"]:checked ~ #flex .flex_child:not([data-category~="fantasia"]),
 [ value="harem"]:checked ~ #flex .flex_child:not([data-category~="harem"]),
 [ value="historico"]:checked ~ #flex .flex_child:not([data-category~="historico"]),
 [ value="infantil"]:checked ~ #flex .flex_child:not([data-category~="infantil"]),
@@ -51,9 +45,9 @@ input[type="radio"]{
 [ value="magia"]:checked ~ #flex .flex_child:not([data-category~="magia"]),
 [ value="mecha"]:checked ~ #flex .flex_child:not([data-category~="mecha"]),
 [ value="misterio"]:checked ~ #flex .flex_child:not([data-category~="misterio"]),
-[ value="musical"]:checked ~ #flex .flex_child:not([data-category~="muscial"]),
+[ value=" musica musical"]:checked ~ #flex .flex_child:not([data-category~="musica muscial"]),
 [ value="pparodia"]:checked ~ #flex .flex_child:not([data-category~="parodia"]),
-[ value="policía"]:checked ~ #flex .flex_child:not([data-category~="policia"]),
+[ value="policia"]:checked ~ #flex .flex_child:not([data-category~="policia"]),
 [ value="psicologico"]:checked ~ #flex .flex_child:not([data-category~="psicologico"]),
 [ value="recuentos_de_la_vida"]:checked ~ #flex .flex_child:not([data-category~="recuentos_de_la_vida"]),
 [ value="romance"]:checked ~ #flex .flex_child:not([data-category~="romance"]),
@@ -68,7 +62,32 @@ input[type="radio"]{
 [ value="vampiros"]:checked ~ #flex .flex_child:not([data-category~="vampiros"]),
 [ value="vanguardia"]:checked ~ #flex .flex_child:not([data-category~="vanguardia"]),
 [ value="yaoi boys_love"]:checked ~ #flex .flex_child:not([data-category~="yaoi boys_love"]),
-[ value="yuri"]:checked ~ #flex .flex_child:not([data-category~="yuri"]){
+[ value="yuri"]:checked ~ #flex .flex_child:not([data-category~="yuri"]),
+[ value="a"]:checked ~ #flex .flex_child:not([data-category~="a"]),
+[ value="b"]:checked ~ #flex .flex_child:not([data-category~="b"]),
+[ value="c"]:checked ~ #flex .flex_child:not([data-category~="c"]),
+[ value="d"]:checked ~ #flex .flex_child:not([data-category~="d"]),
+[ value="f"]:checked ~ #flex .flex_child:not([data-category~="f"]),
+[ value="g"]:checked ~ #flex .flex_child:not([data-category~="g"]),
+[ value="h"]:checked ~ #flex .flex_child:not([data-category~="h"]),
+[ value="i"]:checked ~ #flex .flex_child:not([data-category~="i"]),
+[ value="j"]:checked ~ #flex .flex_child:not([data-category~="j"]),
+[ value="k"]:checked ~ #flex .flex_child:not([data-category~="k"]),
+[ value="l"]:checked ~ #flex .flex_child:not([data-category~="l"]),
+[ value="m"]:checked ~ #flex .flex_child:not([data-category~="m"]),
+[ value="n"]:checked ~ #flex .flex_child:not([data-category~="n"]),
+[ value="o"]:checked ~ #flex .flex_child:not([data-category~="o"]),
+[ value="p"]:checked ~ #flex .flex_child:not([data-category~="p"]),
+[ value="r"]:checked ~ #flex .flex_child:not([data-category~="r"]),
+[ value="s"]:checked ~ #flex .flex_child:not([data-category~="s"]),
+[ value="t"]:checked ~ #flex .flex_child:not([data-category~="t"]),
+[ value="w"]:checked ~ #flex .flex_child:not([data-category~="w"]),
+[ value="x"]:checked ~ #flex .flex_child:not([data-category~="x"]),
+[ value="y"]:checked ~ #flex .flex_child:not([data-category~="y"]),
+[ value="z"]:checked ~ #flex .flex_child:not([data-category~="z"]),
+[ value="anime"]:checked ~ #flex .flex_child:not([data-category~="anime"]),
+[ value="pelicula"]:checked ~ #flex .flex_child:not([data-category~="pelicula"]),
+[ value="ova"]:checked ~ #flex .flex_child:not([data-category~="ova"]){
     display: none;
 }
 
@@ -87,7 +106,7 @@ input[type="radio"]{
 [value="donghua"]:checked ~ .container_category [for="donghua"],
 [value="drama"]:checked ~ .container_category [for="drama"],
 [value="ecchi"]:checked ~ .container_category [for="ecchi"],
-[value="escolar"]:checked ~ .container_category [for="escolar"],
+[value="escolar escolares"]:checked ~ .container_category [for="escolar escolares"],
 [value="espcailes espacio"]:checked ~ .container_category [for="espcailes espacio"],
 [value="fantasia"]:checked ~ .container_category [for="fantasia"],
 [value="harem"]:checked ~ .container_category [for="harem"],
@@ -116,7 +135,32 @@ input[type="radio"]{
 [value="vampiros"]:checked ~ .container_category [for="vampiros"],
 [value="vanguardia"]:checked ~ .container_category [for="vanguardia"],
 [value="yaoi boys_love"]:checked ~ .container_category [for="yaoi boys_love"],
-[value="yuri"]:checked ~ .container_category [for="yuri"]{
+[value="yuri"]:checked ~ .container_category [for="yuri"],
+[value="a"]:checked ~ .container_category [for="a"],
+[value="b"]:checked ~ .container_category [for="b"],
+[value="c"]:checked ~ .container_category [for="c"],
+[value="d"]:checked ~ .container_category [for="d"],
+[value="f"]:checked ~ .container_category [for="f"],
+[value="g"]:checked ~ .container_category [for="g"],
+[value="h"]:checked ~ .container_category [for="h"],
+[value="i"]:checked ~ .container_category [for="i"],
+[value="j"]:checked ~ .container_category [for="j"],
+[value="k"]:checked ~ .container_category [for="k"],
+[value="l"]:checked ~ .container_category [for="l"],
+[value="m"]:checked ~ .container_category [for="m"],
+[value="n"]:checked ~ .container_category [for="n"],
+[value="o"]:checked ~ .container_category [for="o"],
+[value="p"]:checked ~ .container_category [for="p"],
+[value="r"]:checked ~ .container_category [for="r"],
+[value="s"]:checked ~ .container_category [for="s"],
+[value="t"]:checked ~ .container_category [for="t"],
+[value="w"]:checked ~ .container_category [for="w"],
+[value="x"]:checked ~ .container_category [for="x"],
+[value="y"]:checked ~ .container_category [for="yuri"],
+[value="z"]:checked ~ .container_category [for="z"],
+[value="anime"]:checked ~ .container_category [for="anime"],
+[value="pelicula"]:checked ~ .container_category [for="pelicula"],
+[value="ova"]:checked ~ .container_category [for="ova"]{
     background-color: #46a2fd;
     color: #fff;
 }
