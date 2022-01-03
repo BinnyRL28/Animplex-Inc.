@@ -50,7 +50,7 @@ img {
 }
 .flex_child {
     margin-top:80px;
-    margin-bottom:80px;
+    margin-bottom:100px;
     margin-left:15px;
     margin-right:15px;
     width:209px;
@@ -102,8 +102,8 @@ img {
 }
 
 .fondo_titulo h3{
-    font-family:monospace;
-    font-size:22px;
+    font-family:cursive;
+    font-size:20px;
     color: black;
     outline: 2px solid black;
     text-align: center;
@@ -126,7 +126,7 @@ img {
 
 #nombre{
     text-align: right;
-    font-family: rockys;
+    font-family:fantasy, cursive;
 }
 
 #logo{
@@ -761,7 +761,7 @@ form{
 }
 
 #filtroAlfabeto{
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
     width: auto;
     display:flex;
     flex-wrap:row;
@@ -789,29 +789,34 @@ form{
 }
 
 #filtroSuperior{
-    outline: 2px solid yellow;
-    width: 100%;;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* outline: 2px solid yellow; */
+    width: 90%;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    justify-self: center;
+    align-items: center;
+    border-bottom: 3px solid rgb(88, 3, 88);
 }
 .labelTipo{
         outline:2px solid rgb(201, 16, 238);
         margin:5px;
         padding:0;
-        background-color: black;
+        background-color: rgb(0, 0, 0);
 }
 #filtroTipo{
-    outline: 2px solid orange;
-    width: auto;
+    /* outline: 2px solid orange; */
     display:flex;
     flex-wrap:row;
     text-align: center;
     align-items: center;
 }
 
-#filtroTipo label{    
-    background-color: yellow;
-    color:color;
+#filtroTipo label{
+    background-color: black;
+    color:white;
     padding:2px;
     margin: 3px;
 }
@@ -821,24 +826,33 @@ form{
     color:black;
 }
 
-#filtroGeneros{
-    display:flex;
-    flex-wrap:wrap;
-}
-
 
 #filtroTipo label{
-    background: #e2e2e2;
-    padding: 6px 40px;
-    font-size: 20px;
-    margin: 10px;
+    font-family:monospace;
+    padding: 5px;
+    margin: 5px;
+}
+#filtroGeneros{
+    outline: 2px solid rgba(189, 46, 255, 0.774);
+    background-color: rgba(189, 46, 255, 0.336);
+    margin:auto;
+    width: 86%;
+    display:grid;
+    grid-template-columns: min-content min-content max-content min-content max-content min-content max-content max-content min-content  ;
+    grid-template-rows: max-content;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
 }
 
 #filtroGeneros label{
-    background: #e2e2e2;
-    padding: 6px 40px;
-    font-size: 20px;
-    margin: 10px;
+    outline:2px solid rgb(201, 16, 238); 
+    background: black;
+    color: white;
+    padding: 4px;
+    font-size: 18px;
+    margin: 7px;
 }
 hr{
     font-weight: 30px;
