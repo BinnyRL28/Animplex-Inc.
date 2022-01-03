@@ -1,51 +1,9 @@
 ANIPLEX INC.
 
-Esta pagina será dirigida a todos los usuarios interesados en las animaciones producidas por esta industria.
-Hay una sección de busqueda y criterios donde podrá elegir el tipo de animación, los más destacados, orden alfábetico y el tiempo de publicación; así se le hará más fácil poder interactuar con la página.
+En esta página está dirigidos a aquellos usuarios interesados en las animaciones producidas por la industria ANIPLEX, aquí podrás encontrar información especificada a detalle de cada una de ellas.
+Se darán valoracinoes a través de graficos y estdísticas, además para una mayor comodidad la página cuenta con filtros de busqueda e información, donde tú mismo podrás seleccionar los criterios que desees.
+En caso quieras ponerte en contacto con nosotras hay una sección acerca de nosotras, las creadoras de esta pagina, porporcionando en ella nuestros correo para poder contactarnos.
 
-En esta página encontrarás los siguientes anime:
+Esperamos lo difrutre!!
 
-value="Acción"
-                                     value="Artes Marciales"
-                                     value="Aventuras"
-                                     value="Carreras"
-                                     value="Ciencia Ficción"
-                                     value="Comedia"
-                                     value="Comedia"
-                                     value="Comedia"
-                                     value="Demencia"
-                                     value="Demonios"
-                                     value="Deportes"
-                                     value="Donghua"
-                                     value="Drama"
-                                     value="Ecchi"
-                                     value="Escolar"
-                                     value="Espaciales"
-                                     value="Fantasía"
-                                     value="Harem"
-                                     value="Histórico"
-                                     value="Infantil"
-                                     value="Isekai"
-                                     value="Josei"
-                                     value="Juegos"
-                                     value="Magia"
-                                     value="Mecha"
-                                     value="Musical"
-                                     value="Parodia"
-                                     value="Policía"
-                                     value="Psicológico"
-                                     value="Recuentos de la vida"
-                                     value="Romance"
-                                     value="Samurai"
-                                     value="Seinen"
-                                     value="Shoujo"
-                                     value="Shounen"
-                                     value="Sobrenatural"
-                                     value="Sobrenatural"
-                                     value="Superpoderes"
-                                     value="Suspenso"
-                                     value="Terror/Gore"
-                                     value="Vampiros"
-                                     value="Vanguardia"
-                                     value="Yaoi"
-                                     value="Yuri"
+
